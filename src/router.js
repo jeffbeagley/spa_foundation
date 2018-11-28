@@ -14,13 +14,10 @@ export default new Router({
             meta: { title: 'Home' }
         },
         {
-            path: '/server_setup',
-            name: 'server_setup',
-            meta: { title: 'some other page' },
-            // route level code-splitting
-            // this generates a separate chunk (about.[hash].js) for this route
-            // which is lazy-loaded when the route is visited.
-            component: () => import(/* webpackChunkName: "server_setup" */ './views/server_setup.vue')
+            path: '/about',
+            name: 'about',
+            meta: { title: 'about page' },
+            component: () => import(/* webpackChunkName: "about" */ './views/about.vue')
         }
     ]
 })

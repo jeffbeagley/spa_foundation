@@ -1,6 +1,6 @@
 {
-  "name": "kafka_manager",
-  "short_name": "kafka_manager",
+  "name": "scaffold",
+  "short_name": "scaffold",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
