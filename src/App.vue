@@ -2,7 +2,9 @@
 
   <div id="app">
     <nav-bar></nav-bar>
-    <router-view/>
+    <transition name="router-anim">
+        <router-view></router-view>
+    </transition>
   </div>
 </template>
 
