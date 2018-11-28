@@ -20,6 +20,11 @@ Vue.config.productionTip = false
 Vue.config.devtools = true
 Vue.use(BootstrapVue)
 
+router.beforeEach((to, from, next) => {
+    document.title = to.meta.title
+    next()
+})
+
 new Vue({
     router,
     store,
