@@ -5,13 +5,12 @@
       <p class="lead">Quick and dirty UI for managing Kafka Connectors</p>
     </div>
 
-
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'home'
+    name: 'home'
 }
 </script>
